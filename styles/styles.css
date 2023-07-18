@@ -95,12 +95,19 @@ nav li img {
 /* Banner */
 .banner-tittle {
     margin-top: -17px;
-    width: 50%;
-    height: 700px;
-    flex-shrink: 0;
+    width: 50%; 
+    height: auto;
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-
     margin-bottom: 0px;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    flex-basis: 48%;
 }
 
 .goat {
@@ -186,4 +193,13 @@ nav li img {
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+}
+.banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.column-1 {
+    flex-basis: 48%;
 }
