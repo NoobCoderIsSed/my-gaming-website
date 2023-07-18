@@ -203,3 +203,86 @@ nav li img {
 .column-1 {
     flex-basis: 48%;
 }
+
+
+
+/* Responsive */
+@media (max-width: 576px) {
+    header {
+        padding: 20px;
+        align-items: center;
+    }
+    body {
+        background-color: #fff;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-div {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    nav>ul {
+        margin-left: 250px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .tittle-div{
+        margin-left: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tittle1 {
+        font-size: 28px;
+        text-align: center;
+
+    }
+    .img-div{
+        width: auto;
+        margin-left: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav li {
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .banner-container {
+        align-items: center;
+        margin-top: 300px;
+        flex-direction: column;
+    }
+
+    .banner-tittle {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .goat {
+        font-size: 75px;
+    }
+
+    .play {
+        font-size: 38px;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 15px;
+    }
+    
+    .column-1 {
+        margin-top: 20px;
+    }
+}
