@@ -260,6 +260,7 @@ nav li img {
         align-items: center;
         margin-top: 300px;
         flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .banner-tittle {
