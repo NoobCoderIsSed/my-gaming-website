@@ -584,34 +584,35 @@ footer {
         margin-left: 3em;
     }
     footer{
-        padding-left: 150px;
-        padding-right: 250px;
-        margin-bottom: 0px;
+        padding: 20px;
+        height: auto;
+        width: 694px;
     }
     .footer-container {
         flex-direction: column;
+        gap: 20px;
     }
 
-    .footer-div, 
+     
     .footer-des, 
     .last-div {
-        flex-direction: column;
+        text-align: center;
         align-items: center;
-        gap: 1em;
-        text-align: center; 
+        gap: 20px; 
     }
-
+    .footer-div{
+        margin-right: 100px;
+        margin-left: -200px;
+    }
     .social-media {
-        gap: 2em;
-        flex-wrap: wrap; 
-        justify-content: center; 
+        justify-content: center;
+        gap: 20px; 
     }
 
     .end {
-        font-size: 20px;
-        margin-right: 10px;
+        font-size: 18px;
         margin-top: 50px;
-        text-align: center; 
+        margin-right: 0; 
     }
 
 }
