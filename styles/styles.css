@@ -304,20 +304,24 @@ nav li img {
     font-style: normal;
     font-weight: 500;
 }
-.another-section{
+
+.another-section {
     margin-top: 300px;
     display: flex;
     gap: 270px;
 }
-.section-img{
+
+.section-img {
     margin-left: 50px;
 }
-.another-img{
+
+.another-img {
     width: 318.5px;
     position: relative;
     bottom: 200px;
     right: 100px;
 }
+
 .play {
     text-align: left;
     font-family: Work Sans;
@@ -346,6 +350,27 @@ nav li img {
     margin-left: 100px;
 }
 
+.small-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em; 
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.game:hover {
+    transform: scale(1.05);
+    background-color: pink;
+    border-radius: 10px;
+}
+.game img {
+    margin-right: 1em;
+    margin-left: 5em;
+}
 
 /* Responsive */
 @media (max-width: 576px) {
@@ -451,17 +476,26 @@ nav li img {
         padding: 0;
         margin-left: 350px;
     }
-    .another-section{
+
+    .another-section {
         flex-direction: column;
         margin-top: 100px;
         gap: 50px;
     }
-    .section-tittle{
+
+    .section-tittle {
         margin-left: 130px;
     }
-    .section-des{
+
+    .section-des {
         white-space: nowrap;
         align-items: flex-start;
+    }
+    .small-img {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .game img {
+        margin-left: 3em; 
     }
 
 }
